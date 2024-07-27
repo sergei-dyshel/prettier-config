@@ -2,7 +2,10 @@
   "name": "@sergei-dyshel/prettier-config",
   "version": "1.0.0",
   "description": "Personal Prettier config",
-  "scripts": {},
+  "scripts": {
+    "format-check": "qcfg-prettier",
+    "format-write": "qcfg-prettier-write"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sergei-dyshel/prettier-config.git"
